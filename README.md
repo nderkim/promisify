@@ -11,7 +11,7 @@ promisify(fn)(...args);
 ```
 
 ```
-promisify :: fn -> Promise
+promisify :: fn -> (...args) -> Promise
 fn :: (...args, cb) -> void
 cb :: (err, ...res) -> void
 ```
