@@ -7,7 +7,7 @@ const promisify = require('@nderkim/promisify');
 ```
 
 ```js
-promisify(fn)(...args);
+const promise = promisify(fn)(...args);
 ```
 
 ```
