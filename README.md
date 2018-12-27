@@ -7,11 +7,11 @@ const promisify = require('@nderkim/promisify');
 ```
 
 ```js
-const promise = promisify(fn)(...args);
+const res = await promisify(fn)(...args);
 ```
 
 ```
 promisify :: fn -> (...args) -> Promise
 fn :: (...args, cb) -> void
-cb :: (err, ...res) -> void
+cb :: (err, res) -> void
 ```
